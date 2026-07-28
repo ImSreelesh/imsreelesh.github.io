@@ -74,23 +74,27 @@
 
           <div class="project-main-overview">
 
-            <h2>Project Overview</h2>
+   <h2>Project Overview</h2>
 
-            <p>
-              This project developed a GIS-based emergency evacuation model for
-              a simulated rail derailment scenario in Windsor, Ontario. The
-              analysis focused on identifying affected populations, evaluating
-              suitable emergency shelters, allocating residents to facilities,
-              and planning evacuation routes.
-            </p>
+<p>
+  This project developed two GIS-based public-safety scenarios for a simulated
+  train derailment in London, Ontario. The first scenario allocated population
+  located within the mandatory evacuation zone to suitable shelters without
+  crossing the railway corridor near the accident site.
+</p>
 
-            <p>
-              ArcGIS Pro, ModelBuilder, Network Analyst, and
-              location-allocation tools were used to organize the workflow,
-              analyze travel conditions, and support emergency-response
-              decision-making. Restricted railway corridors and accident zones
-              were considered so that proposed routes could avoid hazardous areas.
-            </p>
+<p>
+  The second scenario examined how Zones 1 and 2 could act as barriers to
+  non-emergency travel during the immediate response and clean-up stages.
+  London Transit bus routes were reconstructed to identify routes affected or
+  diverted by the hazard zones.
+</p>
+
+<p>
+  ArcGIS Pro, ModelBuilder, Network Analyst, and location-allocation tools were
+  used to build the network dataset, combine shelter locations, model population
+  demand, automate shelter allocation, and evaluate transportation disruption.
+</p>
 
 
             <div class="project-pdf-box">
@@ -129,12 +133,12 @@
 
             <p>
               <strong>Study Area:</strong><br>
-              Windsor, Ontario
+              London, Ontario
             </p>
 
             <p>
               <strong>Project Type:</strong><br>
-              Emergency Response Planning
+              Evacuation and Transportation Disruption Analysis
             </p>
 
             <p>
@@ -144,12 +148,12 @@
 
             <p>
               <strong>Analysis:</strong><br>
-              Network Analyst and Location-Allocation
+              Location-Allocation, Network Barriers and Route Analysis
             </p>
 
             <p>
               <strong>Purpose:</strong><br>
-              Support evacuation planning and emergency shelter allocation.
+               22 × 34 academic poster containing four final maps
             </p>
 
           </aside>
@@ -174,24 +178,29 @@
 
             <ul>
               <li>
-                Identify population locations inside emergency evacuation zones.
+                Identify population demand points within the mandatory evacuation zone.
               </li>
 
               <li>
-                Evaluate schools and community facilities as potential shelters.
+                Combine schools and community centres into a shelter feature class.
               </li>
 
               <li>
-                Allocate affected residents to suitable emergency facilities.
+                Allocate evacuees to the closest suitable shelters without crossing the
+    railway corridor.
               </li>
 
               <li>
-                Prevent routes from crossing restricted accident areas.
+                Use Zones 1 and 2 as barriers to non-emergency transportation.
               </li>
 
               <li>
-                Automate important analysis steps using ModelBuilder.
+                Compare regular London Transit routes with routes diverted by the hazard
+    zones.
               </li>
+              <li>
+    Automate the location-allocation workflow using ModelBuilder.
+             </li>
             </ul>
 
           </article>
@@ -202,18 +211,23 @@
             <h2>Methods and Tools</h2>
 
             <p>
-              A transportation network dataset was configured for emergency
-              response travel. Population locations were used as demand points,
-              while schools and community facilities were assessed as potential
-              shelters.
+              Schools and community centres were combined to create potential evacuation
+  shelters. Statistics Canada Dissemination Block centroids and population
+  counts were used as demand points.
             </p>
 
             <p>
-              Location-allocation and routing tools were used to identify
-              suitable evacuation destinations and travel paths. ModelBuilder
-              helped organize and automate parts of the workflow.
+              A network dataset was generated from the single-line road dataset. Network
+  restrictions were applied so evacuees could not cross the railway corridor
+  near the accident site. Location-allocation analysis was then used to assign
+  population demand to suitable shelters.
             </p>
-
+             <p>
+  Zones 1 and 2 were also applied as barriers to London Transit routes to
+  evaluate transportation disruption and identify diverted routes. ModelBuilder
+  was used to automate the shelter-allocation portion of the workflow.
+             </p>
+        
           </article>
 
 
@@ -221,11 +235,11 @@
 
             <h2>Skills Demonstrated</h2>
 
-            <p>
-              Network dataset configuration, location-allocation analysis,
-              emergency-response planning, ModelBuilder automation, spatial data
-              integration, cartographic design, and public-safety GIS.
-            </p>
+<p>
+  Network dataset creation, location-allocation analysis, demand and facility
+  modelling, network barriers, transit-route analysis, ModelBuilder automation,
+  spatial-data integration, emergency planning, and academic poster design.
+</p>
 
           </article>
 
@@ -234,12 +248,13 @@
 
             <h2>Project Outcome</h2>
 
-            <p>
-              The resulting analysis provided a structured emergency-response
-              workflow for identifying affected populations, selecting suitable
-              shelters, and evaluating evacuation routes under simulated hazard
-              conditions.
-            </p>
+<p>
+  The project produced four maps showing evacuation zones and shelters,
+  population-to-shelter allocation, regular London Transit routes, and routes
+  diverted by the hazard barriers. The final workflow demonstrated how GIS can
+  support shelter planning, transportation-impact assessment, and emergency
+  communication following a rail accident.
+</p>
 
           </article>
 
