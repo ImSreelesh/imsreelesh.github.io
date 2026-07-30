@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Emergency Response Network Analysis for Windsor | Sreelesh Sreedharan
+  </title>
+
+  <meta
+    name="description"
+    content="Emergency response network analysis for Windsor using ArcGIS Pro, service areas, closest facility analysis, travel-time modelling, and supporting Excel results."
+  >
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+
+    <div class="logo">SS | GIS</div>
+
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#skills">Skills</a>
+
+      <a
+        href="../Sreelesh Sreedharan_Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Resume
+      </a>
+
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+
+  </header>
+
+
+  <main class="project-detail-page">
+
+    <section class="project-detail-header">
+
+      <div class="project-detail-container">
+
+        <p class="section-label">PORTFOLIO DETAILS</p>
+
+        <h1>Emergency Response Network Analysis for Windsor</h1>
+
+        <p class="project-tools">
+          ArcGIS Pro • Network Analyst • Service Area • Closest Facility • Travel-Time Analysis
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <section class="project-overview-section">
+
+      <div class="project-detail-container">
+
+        <div class="project-overview-grid">
+
+
+          <div class="project-main-overview">
+
+            <h2>Project Overview</h2>
+
+            <p>
+              This project evaluated emergency-response coverage in Windsor,
+              Ontario, using a custom road-network dataset and travel-time
+              modelling. The analysis examined existing fire-station service
+              areas and assessed how a proposed marine fire station could improve
+              response coverage across the city.
+            </p>
+
+            <p>
+              Service-area analysis was used to map 0–0.5, 0.5–2.5, and
+              2.5–5.5-minute travel zones. Closest-facility analysis was also
+              used to identify the most suitable fire station for responding to
+              an incident at the CPCK rail yard.
+            </p>
+
+
+            <div class="project-pdf-box">
+
+              <h2>Project Files</h2>
+
+              <p>
+                Open the final layouts, supporting Excel results, and workflow
+                screenshots to review the full analysis.
+              </p>
+
+              <div class="project-file-links">
+
+                <a
+                  class="file-button"
+                  href="../project-files/windsor-network/marine-response-area.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Marine Response PDF
+                </a>
+
+                <a
+                  class="file-button"
+                  href="../project-files/windsor-network/closest-facility-routing.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Closest Facility PDF
+                </a>
+
+                <a
+                  class="file-button"
+                  href="../project-files/windsor-network/analysis-results.xlsx"
+                  download
+                >
+                  Excel Results
+                </a>
+
+                <a
+                  class="file-button"
+                  href="../project-files/windsor-network/network-travel-mode.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Travel Mode Setup
+                </a>
+
+                <a
+                  class="file-button"
+                  href="../project-files/windsor-network/network-cost-settings.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Cost Settings
+                </a>
+
+                <a
+                  class="file-button"
+                  href="../project-files/windsor-network/road-travel-time-table.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Travel-Time Table
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <aside class="project-info-card">
+
+            <h2>Project Information</h2>
+
+            <div class="project-info-divider"></div>
+
+            <p>
+              <strong>Category:</strong><br>
+              Network Analysis
+            </p>
+
+            <p>
+              <strong>Study Area:</strong><br>
+              Windsor, Ontario
+            </p>
+
+            <p>
+              <strong>Project Type:</strong><br>
+              Emergency Response Coverage
+            </p>
+
+            <p>
+              <strong>Software:</strong><br>
+              ArcGIS Pro
+            </p>
+
+            <p>
+              <strong>Analysis:</strong><br>
+              Service Area and Closest Facility
+            </p>
+
+            <p>
+              <strong>Network Costs:</strong><br>
+              Travel time and distance
+            </p>
+
+          </aside>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="project-content-section">
+
+      <div class="project-detail-container">
+
+        <div class="project-content-grid">
+
+
+          <article class="project-content-card">
+
+            <h2>Project Objectives</h2>
+
+            <ul>
+              <li>Create a road-network dataset for emergency-response analysis.</li>
+              <li>Configure travel-time and distance cost attributes.</li>
+              <li>Map fire-station service areas using multiple response-time cutoffs.</li>
+              <li>Assess the impact of a proposed marine fire station.</li>
+              <li>Identify the closest facility to the CPCK rail yard.</li>
+            </ul>
+
+          </article>
+
+
+          <article class="project-content-card">
+
+            <h2>Methods and Tools</h2>
+
+            <p>
+              Road-segment length and speed attributes were used to calculate
+              travel time. These values were configured as network costs within
+              a custom emergency-response travel mode.
+            </p>
+
+            <p>
+              Service-area analysis was used to compare coverage before and
+              after adding the proposed station. Closest-facility analysis was
+              used to evaluate emergency routing to the rail-yard incident.
+            </p>
+
+          </article>
+
+
+          <article class="project-content-card">
+
+            <h2>Skills Demonstrated</h2>
+
+            <p>
+              Network-dataset creation, travel-mode configuration, cost
+              attributes, field calculations, service-area analysis,
+              closest-facility routing, spatial summarization, Excel reporting,
+              and cartographic design.
+            </p>
+
+          </article>
+
+
+          <article class="project-content-card">
+
+            <h2>Project Outcome</h2>
+
+            <p>
+              The analysis demonstrated improved emergency-response coverage
+              after adding the proposed marine station. It also identified Fire
+              Hall #4 as the closest facility to the CPCK rail yard and provided
+              measurable changes in the number of schools, parks, dwellings, and
+              residents served within the target response time.
+            </p>
+
+          </article>
+
+        </div>
+
+
+        <a
+          class="back-link"
+          href="../index.html#projects"
+        >
+          ← Back to Projects
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>© 2026 Sreelesh Sreedharan | GIS Portfolio</p>
+  </footer>
+
+</body>
+
+</html>
